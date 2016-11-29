@@ -4,7 +4,7 @@ Inspired by recent thoughts by [Chistopher Butler][0] ([audio][1]) on humans kno
 
 ## Future
 
-- Use the Chrome web audio aPI to make actual conversation.
+- Use the Chrome web audio API to make actual conversation.
     - Store a common state, so the user can flip between spoken word and text.
 - Preserve state between sessions.
     - Service workers and a local store?
