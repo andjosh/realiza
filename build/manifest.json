@@ -1,0 +1,6 @@
+{
+    "short_name": "REALIZA",
+    "name": "REALIZA therapeutic chatbot",
+    "start_url": "/index.html",
+    "display": "standalone"
+}
