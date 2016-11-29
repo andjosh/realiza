@@ -1,0 +1,93 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background: #767A7F;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+#app {
+	margin: 5px auto;
+	max-width: 400px;
+	border: none;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+form {
+	background: #EEE;
+	padding: 10px;
+	border-bottom: 1px solid #DDD;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+
+	input {
+		display: block;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 10px;
+		background: #FFF;
+		border: 1px solid #DDD;
+		border-radius: 5px;
+		font-size: 130%;
+		outline: none;
+
+		&:focus {
+			border-color: #BBB;
+		}
+	}
+}
+
+.prompt {
+    background: rgba(255, 255, 255, 0.5);
+    p {
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+}
+
+.messages {
+    margin-bottom: 6rem;
+
+    div {
+            min-height: 1.5rem;
+            margin: 0;
+            padding: 0;
+
+            &.USER {
+                text-align: right;
+                margin: 0.75rem;
+
+                .inner {
+                    background: skyblue; 
+                    border-bottom-right-radius: 0;
+                }
+            }
+            &.BOT {
+                text-align: left;
+                margin: 0.75rem;
+
+                .inner {
+                    background: whitesmoke; 
+                    border-bottom-left-radius: 0;
+                }
+            }
+            .inner {
+                display: inline-block;
+                max-width: 75%;
+                padding: 0.5rem 0.75rem;
+                border-radius: 5px;
+                box-shadow: 0 1px 3px rgba(0,0,0, 0.3);
+            }
+    }
+}
