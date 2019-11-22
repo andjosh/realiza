@@ -43,7 +43,7 @@
     "mkdirp": "^0.5.1",
     "postcss-loader": "^0.9.1",
     "raw-loader": "^0.5.1",
-    "source-map-loader": "^0.1.5",
+    "source-map-loader": "^0.2.4",
     "superstatic": "^4.0.2",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
