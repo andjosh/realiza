@@ -50,7 +50,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
-    "preact": "^4.8.0",
+    "preact": "^10.0.5",
     "preact-redux": "^1.0.1",
     "redux": "^3.5.2"
   },
