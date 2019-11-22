@@ -17,7 +17,7 @@
   "license": "MIT",
   "author": "Jason Miller <jason@developit.ca>",
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
+    "autoprefixer": "^9.7.2",
     "babel": "^6.5.2",
     "babel-core": "^6.9.1",
     "babel-eslint": "^6.0.4",
