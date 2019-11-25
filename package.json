@@ -44,7 +44,7 @@
     "postcss-loader": "^0.9.1",
     "raw-loader": "^0.5.1",
     "source-map-loader": "^0.1.5",
-    "superstatic": "^4.0.2",
+    "superstatic": "^6.0.4",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
